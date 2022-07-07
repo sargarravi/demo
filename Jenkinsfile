@@ -23,7 +23,7 @@ pipeline {
     stages{
         stage("Get a project"){
             steps{
-                git branch: 'master', url: 'https://github.com/gokula1995/JenkinsDemo.git'
+                git branch: 'master', url: 'https://github.com/sargarravi/demo.git'
             }
         }
         
